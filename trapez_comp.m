@@ -34,7 +34,7 @@ while Err > Tol && nsum < Maxsum
 end
 
 if nsum < Maxsum
-    Iflag = 0;              %Flag che indica se abbiamo superato il
+    Iflag = 0;              %Flag che indica se abbiamo raggiunto il
                             %   numero massimo di somme
 else
     Iflag = 1;
